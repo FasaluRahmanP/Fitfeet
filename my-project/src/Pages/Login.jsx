@@ -38,7 +38,7 @@ const Login = () => {
       );
 
       if (user && values.email === "admin@gmail.com") {
-        localStorage.setItem("id", user.id);
+        localStorage.setItem("id", user.idb);
         toast.success("login success");
         setTimeout(() => {
           navigate("/admin");

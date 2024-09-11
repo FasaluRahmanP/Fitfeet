@@ -8,7 +8,7 @@ import { FaShoppingCart } from "react-icons/fa";
 import { mycontext } from "../Context/Context";
 
 export default function NavBar() {
-  const { cart, LoggedIn, searchProducts,logout,idname } = useContext(mycontext);
+  const { cart, LoggedIn, searchProducts, logout, idname } = useContext(mycontext);
   const [dropdown, setDropdown] = useState(false);
   const [searchitem, setsearchitem] = useState("");
   const [accountDropdown, setAccountDropdown] = useState(false);
@@ -100,7 +100,7 @@ export default function NavBar() {
                       </li>
                     </Link>
                     <Link to="login">
-                      <li onClick={()=>logout()} className="px-4 py-2 text-gray-700  hover:bg-red-700 hover:text-[white] cursor-pointer">
+                      <li onClick={() => logout()} className="px-4 py-2 text-gray-700  hover:bg-red-700 hover:text-[white] cursor-pointer">
                         {LoggedIn ? "Log Out" : "Log In"}
                       </li>
                     </Link>

@@ -7,7 +7,7 @@ export default function AdminUser() {
   const { users, cart } = useContext(mycontext);
   const [showcart, setshowcart] = useState(false);
   const [state, setstate] = useState([]);
-  const[deleted,setdeleted]=useState()
+  const [deleted, setdeleted] = useState()
   // ----------------------------------------------------------------------------
 
   const clickHandle = (userId) => {
@@ -15,15 +15,15 @@ export default function AdminUser() {
     setstate(userId);
     setshowcart(true);
   };
-  
-  const handledelete=(userid)=>{
+
+  const handledelete = (userid) => {
     axios.delete(`http://localhost:8000/user/${userid}`)
-    .then(res=>{
-      setdeleted(users.filter(user=>user.id!==userid))
-    })
-    .catch(console.log("error"))
+      .then(res => {
+        setdeleted(users.filter(user => user.id !== userid))
+      })
+      .catch(console.log("error"))
   }
-  
+
   // console.log(state)
   // ----------------------------------------------------------------------------
   return (
@@ -60,7 +60,7 @@ export default function AdminUser() {
               </td> */}
               <td className="py-2 px-4 border-b">
                 <button className="bg-red-500 text-white px-2 py-1 rounded hover:bg-red-600"
-                onClick={()=>handledelete(user.id)}>
+                  onClick={() => handledelete(user.id)}>
                   Delete User
                 </button>
               </td>

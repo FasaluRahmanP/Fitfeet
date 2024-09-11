@@ -23,9 +23,9 @@ export default function AdminNavbar() {
   const search = (event) => {
     const value = event.target.value;
     setsearchitem(value);
-    searchProducts(value); 
+    searchProducts(value);
   };
-  
+
 
   return (
     <div>

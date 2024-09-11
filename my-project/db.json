@@ -4,7 +4,7 @@
       "title": "Nike Air Force",
       "category": "Men",
       "price": 22000,
-      "rating": 5.5,
+      "rating": 5.9,
       "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/60d2e87c-9eaa-46a0-b9aa-0f730291262b/air-force-1-07-shoes-VWCc04.png",
       "quantity": 1,
       "id": "1"
@@ -19,13 +19,13 @@
       "id": "3"
     },
     {
-      "id": "4",
-      "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/a8ae66e9-92bf-41bc-ab98-b33828503caa/v2k-run-shoes-4P7Wl1.png",
-      "price": 10795,
-      "rating": 4.8,
       "title": "Nike V2K Run",
       "category": "Men",
-      "quantity": 1
+      "price": 10798,
+      "rating": 4.8,
+      "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/a8ae66e9-92bf-41bc-ab98-b33828503caa/v2k-run-shoes-4P7Wl1.png",
+      "quantity": 1,
+      "id": "4"
     },
     {
       "id": "5",
@@ -167,7 +167,7 @@
       "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/756d3af2-acd8-4490-bc50-130f60309411/air-jordan-1-elevate-low-shoes-XlkVrM.png",
       "price": 11895,
       "rating": 1.9,
-      "title": "Air Jordan Elevate Low",
+      "title": "Air Jordan Elevate",
       "category": "Women",
       "quantity": 1
     },
@@ -524,12 +524,92 @@
       ]
     },
     {
-      "id": "a3c2",
-      "name": "User",
+      "id": "4774",
+      "name": "user",
       "email": "user@gmail.com",
-      "password": "1234567890",
-      "confirmpassword": "1234567890",
-      "cart": []
+      "password": "asdfghjkl",
+      "confirmpassword": "asdfghjkl",
+      "cart": [
+        {
+          "id": "1",
+          "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/60d2e87c-9eaa-46a0-b9aa-0f730291262b/air-force-1-07-shoes-VWCc04.png",
+          "rating": 5.5,
+          "title": "Nike Air Force",
+          "price": 22000
+        },
+        {
+          "id": "3",
+          "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/1b123e2a-89a2-48b1-8595-5cf0ec8eb3dd/air-max-1-essential-shoes-Vz0BS9.png",
+          "rating": 4.5,
+          "title": "Air Max 1 Essential",
+          "price": 12799
+        },
+        {
+          "id": "4",
+          "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/a8ae66e9-92bf-41bc-ab98-b33828503caa/v2k-run-shoes-4P7Wl1.png",
+          "rating": 4.8,
+          "title": "Nike V2K Run",
+          "price": 10795
+        },
+        {
+          "id": "5",
+          "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/89525e32-aeaf-4a53-8248-90536633f346/air-max-90-shoes-kRsBnD.png",
+          "rating": 3.7,
+          "title": "Nike Air Max 90",
+          "price": 10795
+        },
+        {
+          "id": "6",
+          "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/902bf0f3-9a22-4cd0-8c95-231c0b0fa8de/pegasus-41-road-running-shoes-tVfmVc.png",
+          "rating": 4,
+          "title": "Nike Pegasus 41",
+          "price": 12795
+        },
+        {
+          "id": "7",
+          "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/9c4e6cde-9dfe-4fb1-ab1d-e2796f21e12e/invincible-3-road-running-shoes-Wwmmlp.png",
+          "rating": 4.4,
+          "title": "Nike Invincible 3",
+          "price": 16995
+        },
+        {
+          "id": "8",
+          "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/3b50d026-8a71-4355-bfb5-05f06e933a2e/pegasus-trail-5-trail-running-shoes-2jxMFQ.png",
+          "rating": 3.3,
+          "title": "Nike Pegasus Trail 5",
+          "price": 12795
+        }
+      ]
+    },
+    {
+      "id": "1250",
+      "name": "NewUser",
+      "email": "new@gmail.com",
+      "password": "new12345678",
+      "confirmpassword": "new12345678",
+      "cart": [
+        {
+          "id": "3",
+          "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/1b123e2a-89a2-48b1-8595-5cf0ec8eb3dd/air-max-1-essential-shoes-Vz0BS9.png",
+          "rating": 4.5,
+          "title": "Air Max 1 Essential",
+          "price": 12799
+        },
+        {
+          "id": "19",
+          "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/627dcb0a-88bf-4ab9-aeca-539b396baaea/air-max-dn-se-shoes-vhS1Sm.png",
+          "rating": 3.3,
+          "title": "Nike Air Max Dn SE",
+          "price": 14995
+        },
+        {
+          "id": "36",
+          "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/34a5a613-4e87-4fc7-9a3d-a9db1bbda896/air-force-1-lv8-older-shoes-K8PBBc.png",
+          "rating": 4.8,
+          "title": "Nike Air Force 1 LV8",
+          "price": 7995
+        }
+      ]
     }
   ]
 }

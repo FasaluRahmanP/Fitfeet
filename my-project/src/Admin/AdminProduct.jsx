@@ -47,7 +47,7 @@ const AdminProduct = () => {
       }
     }
   };
-  
+
   // console.log(currentProduct)
 
   const Card = ({ id, img, rating, title, price, category }) => {
@@ -99,7 +99,7 @@ const AdminProduct = () => {
   return (
     <>
       <div className="lg:py-24 py-12 lg:px-16 px-8" id="products">
-        {/* <AddProductForm /> */}
+        <AddProductForm />
         <main className="container mx-auto max-sm:mt-12">
           <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 grid-cols-1 sm:gap-4 gap-14 mt-16">
             {filteredProducts.map((product) => (
@@ -244,7 +244,7 @@ const AdminProduct = () => {
 
                 <div className="flex items-center justify-center">
                   <button
-                     type="submit"
+                    type="submit"
                     className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline transition-transform duration-300 hover:scale-110"
                   >
                     Update

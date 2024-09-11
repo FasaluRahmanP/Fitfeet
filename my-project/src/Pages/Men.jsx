@@ -21,7 +21,7 @@ export default function Men() {
           />
           <p className="text-xl leading-normal text-[#6D6D6D]">{rating}</p>
         </div>
-        <h1 className="mt-2 text-2xl leading-normal font-semibold font-mono pl-2">
+        <h1 className="mt-2 text-xl leading-normal font-semibold font-mono pl-2">
           {title}
         </h1>
         <div className="flex">
@@ -29,7 +29,7 @@ export default function Men() {
             ₹{price}
           </p>
           <button
-            className="bg-black text-white px-6 ml-8 rounded-3xl hover:bg-red-600 text-sm"
+            className="bg-black text-white px-4 ml-8 rounded-3xl hover:bg-red-600 text-sm"
             onClick={() => {
               handleclick({ id, img, rating, title, price });
               toast.success("Item added successfully");
